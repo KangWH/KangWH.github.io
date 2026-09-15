@@ -10,13 +10,51 @@
         box-sizing: border-box;
       }
       :root {
-        font-family: Pretendard, sans-serif;
-        font-size: 18px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, Pretendard Std, sans-serif;
+        font-size: 12pt;
         line-height: 1.8;
+      }
+      dl {
+        display: grid;
+        grid-template-columns: 7.5rem auto;
+
+        dt {
+          font-weight: 200;
+        }
+      }
+      a {
+        text-decoration: none;
+        color: rgb(0, 128, 255);
       }
     </style>
   </head>
   <body>
-    <h1>Woohyun KANG</h1>
+    <h1>강우현 <span style="font-weight: 400; font-size: 1.5rem;">Woohyun KANG</span></h1>
+    <h2>활동</h2>
+    <dl>
+      <dt>2019.03.~2021.02.</dt>
+      <dd>인천진산과학고등학교 조기졸업</dd>
+      <dt>2019.07.</dt>
+      <dd>Pre-URP 프로그램 참여</dd>
+      <dt>2021.03.~</dt>
+      <dd>KAIST 전산학부 전공 (수리과학과 복수전공)</dd>
+      <dt>2022.03.~2023.02.</dt>
+      <dd>KAIST 수리과학과 학생회 집행부</dd>
+      <dt>2022.09.~</dt>
+      <dd>KAIST 수학문제연구회 활동</dd>
+      <dt>2024.04.~2025.10.</dt>
+      <dd>대한민국 육군 병장 만기 전역</dd>
+      <dt>2026.01.</dt>
+      <dd>2025 겨울학기 KAIST 몰입캠프 참가</dd>
+      <dt>2026.07.</dt>
+      <dd>2026 여름학기 KAIST 몰입캠프 운영진</dd>
+    </dl>
+    <h2>작업물</h2>
+    <ul>
+      <li><a href="https://applemincho-latex.tistory.com/3">〈레이텍 입문부터 활용까지〉</a>: 한국어 LaTeX 가이드북</li>
+      <li><a href="https://github.com/KangWH/kopunct"><code>kopunct</code></a>: 한국어 입력 보조 LaTeX 패키지</li>
+      <li><a href="https://kangwh.github.io/KAIST-MathSci-SubjectsMap/">카이수리맵</a>: KAIST 수리과학과 개설과목 로드맵</li>
+      <li><a href="https://tadak.applemincho.com">타닥</a>: macOS 및 iOS용 한글 입력기</li>
+    </ul>
   </body>
 </html>
