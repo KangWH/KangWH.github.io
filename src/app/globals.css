@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: system-ui, -apple-system, BlinkMacSystemFont, "Pretendard Std",
+    sans-serif;
+}
+
+html {
+  font-family: var(--font-sans);
+  font-size: 12pt;
+  line-height: 1.8;
+}
+
+body {
+  margin: 0;
+}
+
+h2 {
+  margin-block: 0.83em;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+ul {
+  margin-block: 1em;
+  padding-inline-start: 40px;
+  list-style: disc;
+}
+
+dd {
+  margin-inline-start: 40px;
+}
