@@ -5,10 +5,10 @@ export function ActivityList() {
   return (
     <section>
       <h2>활동</h2>
-      <dl className="grid grid-cols-[8rem_auto]">
+      <dl className="my-2 grid grid-cols-1 gap-y-2 sm:grid-cols-[10rem_1fr] sm:gap-x-4">
         {activities.map((activity) => (
           <Fragment key={`${activity.period}-${activity.description}`}>
-            <dt className="font-[200]">{activity.period}</dt>
+            <dt>{activity.period}</dt>
             <dd>{activity.description}</dd>
           </Fragment>
         ))}
