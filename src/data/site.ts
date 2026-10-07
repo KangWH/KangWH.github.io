@@ -26,6 +26,7 @@ export type Work = {
   title: string;
   description: string;
   code?: boolean;
+  stack?: string[];
 };
 
 export const works: Work[] = [
@@ -33,26 +34,31 @@ export const works: Work[] = [
     href: "https://applemincho-latex.tistory.com/3",
     title: "〈레이텍 입문부터 활용까지〉",
     description: "한국어 LaTeX 가이드북",
+    stack: ['LaTeX'],
   },
   {
     href: "https://github.com/KangWH/kopunct",
     title: "kopunct",
     description: "한국어 입력 보조 LaTeX 패키지",
     code: true,
+    stack: ['LaTeX'],
   },
   {
     href: "https://grad-log.applemincho.com",
     title: "졸업로그",
     description: "KAIST 졸업예비사정 도우미",
+    stack: ['Node.js', 'React', 'TypeScript'],
   },
   {
     href: "https://kangwh.github.io/KAIST-MathSci-SubjectsMap/",
     title: "카이수리맵",
     description: "KAIST 수리과학과 개설과목 로드맵",
+    stack: ['Vanilla JS', 'JavaScript'],
   },
   {
     href: "https://tadak.applemincho.com",
     title: "타닥",
     description: "macOS 및 iOS용 한글 입력기",
+    stack: ['Swift', 'SwiftUI', 'UIKit'],
   },
 ];
