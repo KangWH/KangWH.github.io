@@ -17,8 +17,8 @@ export const activities = [
   { period: "2022.03.~2023.12.", description: "KAIST 수리과학과 학생회 집행부" },
   { period: "2022.09.~", description: "KAIST 수학문제연구회 활동" },
   { period: "2024.04.~2025.10.", description: "대한민국 육군 병장 만기 전역" },
-  { period: "2026.01.", description: "2025 겨울학기 KAIST 몰입캠프 참가" },
-  { period: "2026.07.", description: "2026 여름학기 KAIST 몰입캠프 운영진" },
+  { period: "2026.01.~2026.02.", description: "2025 겨울학기 KAIST 몰입캠프 참가" },
+  { period: "2026.07.~2026.08.", description: "2026 여름학기 KAIST 몰입캠프 운영진" },
 ] as const;
 
 export type Work = {
